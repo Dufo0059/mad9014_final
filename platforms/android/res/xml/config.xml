@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.dufo0059.Final" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Dufo0059Cordova</name>
+    <description> Sports app </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io"> Apache Cordova Team </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <splash density="port-ldpi" src="res/screens/screen-ldpi-portrait.png" />
+    <splash density="port-mdpi" src="res/screens/screen-mdpi-portrait.png" />
+    <splash density="port-hdpi" src="res/screens/screen-hdpi-portrait.png" />
+    <splash density="port-xhdpi" src="res/screens/screen-xhdpi-portrait.png" />
+    <splash density="port-ldpi" src="res/screens/screen-ldpi-landscape.png" />
+    <splash density="port-mdpi" src="res/screens/screen-mdpi-landscape.png" />
+    <splash density="port-hdpi" src="res/screens/screen-hdpi-landscape.png" />
+    <splash density="port-xhdpi" src="res/screens/screen-xhdpi-landscape.png" />
+    <icon density="ldpi" src="res/icons/icon-36-ldpi.png" />
+    <icon density="mdpi" src="res/icons/icon-48-mdpi.png" />
+    <icon density="hdpi" src="res/icons/icon-72-hdpi.png" />
+    <icon density="xhdpi" src="res/icons/icon-96-xhdpi.png" />
+    <icon density="xxhdpi" src="res/icons/icon-144-xxhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
+</widget>
